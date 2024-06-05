@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+  }
+h2{
+color: #202124;
+    
+    font-size: 38px;
+    font-weight: 700;
+    word-spacing: 0;
+    letter-spacing: -3;
+}
+.loc{
+    font-family: 'National 2 Regular';
+    align-items: center;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.loc p{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.loc-button{
+    cursor: pointer;
+    font-family: 'National2-Medium';
+    
+    margin-left: 10px;
+   line-height : 22px;
+    padding: 5px 11px 5px 11px;
+    font-size: 12px;
+    color: white;
+    background-color: #202124;
+    border: 0;
+    border-radius: 50px;
+}
+header{
+position: fixed;
+z-index: 3;
+    
+    width: 100%;
+    background-color: white;
+}
+.container{
+    padding-top: 165px;
+}
+header hr{
+   
+    border: none;
+    height: 1px;
+    background-color: #d3d3d3; 
+}
+.main-header{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 35px;
+   
+
+}
+.kfc-logo{
+    display: flex;
+   align-items: center;
+   padding-left: 30px;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.signin{
+    font-family: 'National2-Medium';
+     padding-top: 20px; 
+    display: flex;
+   margin-left: 100px;
+    width: 50%;
+    justify-content: center;
+    
+}
+.account{
+    border-right: 1px solid #E3E3E3;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+   align-items: center;
+}
+.menu{
+    font-family: 'National2-Medium';
+    font-weight: 500;
+    padding-left:35px;
+    text-decoration: none;
+    color: #202124;
+    
+}
+.order{
+    font-family: "National 2 Condensed";
+    letter-spacing: 0.5px;
+   
+    display: flex;
+    justify-content: center;
+    background-color: #202124;
+    color: white;
+    
+}
+
+
+.sign{
+ 
+margin-left: 10px;
+font-weight: 500;
+    
+    text-decoration: none;
+    color: #202124;
+}
+.sign{
+
+    font-size: 14px;
+    font-weight: bolder;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.price a{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.order{
+   height: 60px;
+   align-items: center;
+}
+.order p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.order button{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #e4002b;
+    padding: 14px 40px 14px 40px;
+    border-radius: 30px;
+    border: 0;
+
+}
+.order button:hover{
+    background-color: #ad1330;
+}
+.row{
+    display: flex;
+}
+.heading-column{
+    font-family: "National 2 Condensed";
+    padding-left:  148px;
+    width: 50%;
+justify-content: center;
+}
+.hr-column{
+    
+ padding-right: 150px;
+   padding-top: 50px;
+    width: 100%;
+}
+.hr-column hr{
+   
+    border-top: 2px solid  #E3E3E3;
+    margin-bottom: 30px;
+}
+.card-row{
+    display: flex;
+    margin-left:  148px;
+    width: max-content;
+    margin-top: 30px;
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.overflow{
+opacity: 50%;
+z-index: 1;
+}
+
+.card{
+    background-color: #f8f7f5;
+   
+    margin-right: 25px;
+}
+
+.card-img{
+   
+    height: 180.109px;
+    width: 100%;
+}
+.finger{
+    width: 256.094px;
+   
+}
+.fin-para{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'National 2 Regular';
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #202124;
+    
+}
+.card-para{
+    display: flex;
+    justify-content: center;
+    font-family: 'National 2 Condensed';
+}
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #202124;
+    margin-bottom: 0;
+    color: #DBDBDB;
+}
+.logo-row{
+    margin-left: 100px;
+    
+    display: flex;
+}
+.logo-column{
+    margin-top: 20px;
+    line-height: 24px;
+}
+.logo-column li{
+
+
+    font-weight: 500;
+    color: #DBDBDB;
+    font-size: 14px;
+    list-style: none;
+    font-family: 'National 2 Regular';
+}
+.find a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo-row{
+    padding-top: 100px;
+}
+.logo-column button{
+background-color: transparent;
+border: 0;
+}
+.button-column{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.slider-container{
+    height: 100px;
+    margin-left: 220px;
+}
+.red-div{
+    display: flex;
+}
+.red-box{
+    margin-right: 15px;
+    height: 42px;
+    width: 16px;
+    background-color: #e4002b;
+}
+.offer-head{
+    display: flex;
+    
+    align-items: center;
+
+
+}
+.deal{
+  width: 50%;
+  text-align: end;
+}
+.deal a{
+    text-decoration: none;
+    font-family: 'National 2 Regular';
+    color: white;
+    font-size: 14px;
+   
+}
+.offer-head h2{
+    font-family: 'National 2 Condensed';
+    color: white;
+}
+
+.but{
+    margin-right: 20px;
+}
+.fa-angle-left{
+    cursor: pointer;
+    width: fit-content;
+   
+    padding: 17px 20px 20px 20px;
+    border-radius: 100%;
+    background-color: #58595b;
+}
+
+
+.imgcard-row{
+   align-items: center;
+    margin-left: 150px;
+    padding-right: 30px;
+    display: flex;
+    margin-top: 50px;
+    
+    width: 310px;
+
+}
+.footer-para{
+    display: flex;
+    justify-content: center;
+    color: #DBDBDB;
+    font-family: 'National 2 Regular';
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.last-line{
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer-para p{
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 50px;
+}
+.footer-icon{
+    /* grid-template-columns: 1fr; */
+    padding-right: 10px;
+   padding-bottom: 30px;
+
+}
+.icon-row{
+    display: flex;
+    justify-content: end;
+ margin-left: 300px;
+   
+}
+.footer-card{
+
+   border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: #f8f7f5;
+}
+.footer-card h2{
+   
+   margin-bottom: 0;
+    padding-top: 0;
+    font-family: 'National 2 Condensed';
+color: #e4002b;
+font-size: 38px;
+}
+.footer-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 310px ;
+    height: 234.812px
+}
+.imgcard-cont{
+    
+    padding-right: 13px;
+    padding-left: 13px;
+    font-family: "National 2 Regular";
+    font-weight: 400;
+    font-size: 14px;
+}
+.view-det{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'National2-Medium';
+    display: flex;
+    align-items: center;
+
+}
+.view-det a{
+    color:  #494949;
+}
+
+.view-det a:hover{
+    background-color:  #b1afaf;
+}
+.view-det button{
+   margin-left: 20px;
+    padding: 10px 44px 10px 44px;
+    font-family: 'National2-Medium';
+    border: 1px solid #494949;
+    border-radius: 30px;
+    background-color: transparent;
+    
+}
+.view-det button:hover{
+    color: white;
+    background-color:  #202124
+}
